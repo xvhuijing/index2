@@ -1,0 +1,162 @@
+@charset 'UTF-8';
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+body,ul,h1,h2,h3,p,span,a,img{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+h1,h2,h3,p,a,span{
+	font-size: 14px;
+	font-family: '宋体';
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+body{
+	width: 100%;
+	background-color: #ECF9F1;
+}
+#header{
+	width: 100%;
+	height: 190px;
+	background: url('../images/lb.fw.png') center;
+}
+#header h1{
+	width: 960px;
+	background: url('../images/logo.fw.png') no-repeat;
+	line-height: 42px;
+	text-indent: -1000px;
+	margin: 0 auto;
+}
+#nav{
+	width: 100%;
+	background: #4CACF8;
+}
+#nav ul{
+	width: 960px;
+	margin: 0 auto;
+	height: 38px;
+	overflow:hidden;
+}
+#nav .nav1{
+	float: left;
+}
+#nav .nav1 a{
+	color: #fff;
+	line-height: 38px;
+}
+#kf,#main,#footer{
+	width: 960px;
+	margin: 0 auto;
+}
+#main{
+	border-top: 2px solid #DFDFDF;
+}
+#footer{
+	height: 85px;
+}
+#footer p{
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+	padding: 48px 0 9px;
+}
+#kf p{
+	padding: 20px 0 22px 25px;
+	line-height: 28px;
+	font-weight: bold;
+}
+#kf{
+	background: #F6F6F6;
+}
+.m1,.m2,.m3{
+	font-weight: bold;
+	font-size: 16px;
+	padding: 7px 0 9px 0;
+	margin: 18px 6px 16px 0;
+	float: left;
+}
+#main .mm{
+	width: 935px;
+	margin: 0 auto;
+}
+#main .m1{
+	width: 203px;
+	color: #B9BFC5;
+	border: 1px solid #D1D1D1;
+}
+#main .m2{
+	width: 238px;
+	color: #38A5FB;
+	border: 1px solid #FF9C71;
+}
+#main .m3{
+	width: 230px;
+	color: #38A5FB;
+	border: 1px solid #4FACF6;
+}
+span{
+	color: #FF0000;
+}
+#side{
+	margin: 0 auto;
+	width: 935px;
+}
+#side .s1,#side .s2{
+	font-weight: bold;
+	text-align: center;
+	width: 121px;
+	line-height: 35px;
+	margin-bottom: -3px;
+}
+#side .s1{
+	float: left;
+	color: #4CACF8;
+	border-top: 1px solid #DBDBDB;
+	border-left: 1px solid #DBDBDB;
+	border-right: 1px solid #DBDBDB;
+	background: #fff;
+}
+#side .s2{
+	float: left;
+	border: 1px solid #DBDBDB;
+	background: #fff;
+}
+#nr{
+	background: #fff;
+	width: 966px;
+	margin: 0 auto;
+}
+#content{
+	border: 1px solid #DBDBDB;
+	width: 935px;
+	margin: 0 auto;
+}
+#content p{
+	font-size: 14px;
+	color: #656565;
+	line-height: 37px;
+}
+#content .content{
+	height: 432px;
+	margin: 44px 0 0 79px;
+}
+#content span{
+	color: #000000;
+}
+#content .c1{
+	color: #4BABF7;
+}
